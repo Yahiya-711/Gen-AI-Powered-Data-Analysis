@@ -1,0 +1,8 @@
+langchain
+langchain-community
+langchain-google-genai
+python-dotenv
+pydantic>=2
+pandas
+matplotlib
+sqlalchemy
