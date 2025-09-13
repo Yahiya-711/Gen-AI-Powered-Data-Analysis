@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
-import chardet
 from typing import Optional, Dict, Any
-
 class DataLoader:
     """Handles file uploads, encoding detection, and data validation."""
 
@@ -37,4 +35,5 @@ class DataLoader:
 #     if uploaded_file:
 #         df = DataLoader.load_csv(uploaded_file)
 #         if df is not None:
+
 #             st.write(df.head())
