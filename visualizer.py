@@ -128,4 +128,5 @@ class Visualizer:
 #     Visualizer.plot_correlation_heatmap(df)
 #     Visualizer.plot_boxplot(df, "col1")
 #     Visualizer.plot_temporal_data(df, "col3")
+
 #     Visualizer.plot_missing_values(df)
