@@ -1,9 +1,9 @@
 import streamlit as st
-from src.data_loader import DataLoader
-from src.data_processor import DataProcessor
-from src.visualizer import Visualizer
-from src.ai_analyzer import AIAnalyzer
-from src.utils import display_error, log_execution_time
+from data_loader import DataLoader
+from data_processor import DataProcessor
+from visualizer import Visualizer
+from ai_analyzer import AIAnalyzer
+from utils import display_error, log_execution_time
 
 # Set page configuration
 st.set_page_config(
@@ -198,4 +198,5 @@ def main():
             display_error(f"An error occurred: {e}")
 
 if __name__ == "__main__":
+
     main()
