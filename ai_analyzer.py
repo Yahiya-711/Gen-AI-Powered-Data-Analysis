@@ -4,7 +4,7 @@ from langchain_core.messages import HumanMessage, SystemMessage
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate, SystemMessagePromptTemplate, HumanMessagePromptTemplate
 from langchain.schema import BaseMessage
-from .config import Config
+from config import Config
 
 class AIAnalyzer:
     """Handles AI-powered analysis using LangChain with Google Gemini."""
@@ -239,4 +239,5 @@ Focus on:
             print("Failed to generate insights")
             
     except Exception as e:
+
         print(f"Test failed: {e}")"""
